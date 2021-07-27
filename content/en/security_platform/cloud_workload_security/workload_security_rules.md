@@ -5,6 +5,9 @@ further_reading:
 - link: "/security_platform/cloud_workload_security/getting_started"
   tag: "Blog"
   text: "Get Started with Cloud Runtime Security"
+- link: "/security_platform/cloud_workload_security/secl"
+  tag: "Documentation"
+  text: "SECL fields documentation"
 ---
 
 ## Overview
@@ -68,5 +71,8 @@ For example, if you used explicit filenames to evaluate open events (for example
 
 Approvers are generally more powerful and preferred. Using approvers, the Agent can process only what it needs to see rather than dynamically learning what to filter out.
 
+
+## Further Reading
+{{< partial name="whats-next/whats-next.html" >}}
 [1]: /security_platform/cloud_workload_security/agent_expressions
 [2]: /security_platform/default_rules
