@@ -9541,6 +9541,11 @@ components:
           items:
             $ref: '#/components/schemas/SyntheticsAssertion'
           type: array
+        configVariables:
+          description: Array of variables used for the test.
+          items:
+            $ref: '#/components/schemas/SyntheticsConfigVariable'
+          type: array
         request:
           $ref: '#/components/schemas/SyntheticsTestRequest'
         setCookie:
